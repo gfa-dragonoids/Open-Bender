@@ -5,8 +5,9 @@
 
 ## Todo
 - [ ] UI
-	- [ ] HTML Editor
-	- [ ] 
+	- [ ] HTML Editor/ Blog Editor
+	- [ ] Webpage Compiler UI
+	- [ ] PDF Compiler UI
 
 - [ ] Compilers
 	- [ ] Webpage Compiler
