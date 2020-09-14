@@ -13,7 +13,11 @@
 	- [ ] Webpage Compiler
 	- [ ] PDF Compiler
 
-- [ ] Template
+- [ ] Template (Pages)
+	- [ ] Home
+	- [ ] Post
+	- [ ] Members
+	- [ ] About
 
 ## Website Structure
 ```
