@@ -10,12 +10,12 @@
   </head>
   <body>
     <div class="sidebar">
-      <a href="../home/index.html">
+      <!-- <a href="../home/index.html">
         <span class="material-icons">
           dashboard
         </span>
         Dashboard
-      </a>
+      </a> -->
       <a href="../posts/index.html">
         <span class="material-icons">
           description
@@ -27,6 +27,12 @@
           note_add
         </span>
         New Post
+      </a>
+      <a href="../compile/index.html">
+        <span class="material-icons">
+          public
+        </span>
+        Generate Website
       </a>
       <a href="../compile/index.html">
         <span class="material-icons">
@@ -44,15 +50,15 @@
     <div class="main">
       <div class="input">
         <label>Title</label>
-        <input type="text" name="title" placeholder="We Built a Robot!">
+        <input type="text" id="title" placeholder="We Built a Robot!">
       </div>
       <div class="input">
         <label>Date</label>
-        <input type="text" name="date" placeholder="4.20.20">
+        <input type="text" id="date" placeholder="4.20.20">
       </div>
       <div class="input">
         <label>Attendance</label>
-        <input type="text" name="attendance" placeholder="Tom, Jane, Scott">
+        <input type="text" id="attendance" placeholder="Tom, Jane, Scott">
       </div>
       <div class="input">
         <label>Editor</label>
@@ -60,21 +66,9 @@
         </div>
       </div>
       <div class="bottombar">
-        <a href="#">Save</a>
+        <a href="#" onclick="save()">Save</a>
       </div>
     </div>
-    <script>
-    var quill = new Quill('#editor-container', {
-      modules: {
-        toolbar: [
-          [{ header: [1, 2, false] }],
-          ['bold', 'italic', 'underline'],
-          ['image', 'code-block']
-        ]
-      },
-      placeholder: 'Compose an epic...',
-      theme: 'snow'  // or 'bubble'
-    });
-    </script>
+    <script src="script.js" charset="utf-8"></script>
   </body>
 </html>

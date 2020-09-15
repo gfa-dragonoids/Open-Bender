@@ -47,5 +47,15 @@
   bottom: 0px;
   overflow-y: scroll;
 }
+.main a {
+  display: block;
+  width: 100%;
+  padding: 25px;
+  color: #333;
+  text-decoration: none;
+}
+.main a:hover {
+  background: #eee;
+}
 
 /*# sourceMappingURL=style.css.map */

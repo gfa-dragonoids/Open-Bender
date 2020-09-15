@@ -1,5 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 
+process.env.gitPaths = app.getPath('desktop') + "/robotics/website";
+
 app.whenReady().then(function () {
 
   const win = new BrowserWindow({
