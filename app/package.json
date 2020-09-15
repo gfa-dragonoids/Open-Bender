@@ -1,0 +1,11 @@
+{
+  "name": "open-bender",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^10.1.1"
+  }
+}
