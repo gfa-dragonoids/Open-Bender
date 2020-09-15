@@ -4,8 +4,9 @@
 ![Open Bender Icon](./res/icon.png)
 
 ## Todo
-- [ ] UI
-	- [ ] HTML Editor/ Blog Editor
+- [X] UI
+	- [X] HTML Editor/ Blog Editor
+	- [X] Posts View
 	- [ ] Webpage Compiler UI
 	- [ ] PDF Compiler UI
 
